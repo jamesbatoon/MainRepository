@@ -332,6 +332,30 @@
         <fullName>YearStarted</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
+    <fields>
+        <fullName>okaypicklist__c</fullName>
+        <externalId>false</externalId>
+        <label>okaypicklist</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>hey picklist</fullName>
+                    <default>true</default>
+                    <label>hey picklist</label>
+                </value>
+                <value>
+                    <fullName>yah picklist</fullName>
+                    <default>false</default>
+                    <label>yah picklist</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
     <listViews>
         <fullName>AllAccounts</fullName>
         <filterScope>Everything</filterScope>
