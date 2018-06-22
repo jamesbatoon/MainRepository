@@ -341,6 +341,14 @@
         <type>TextArea</type>
     </fields>
     <fields>
+        <fullName>now__c</fullName>
+        <externalId>false</externalId>
+        <label>now</label>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
         <fullName>okaypicklist__c</fullName>
         <externalId>false</externalId>
         <label>okaypicklist</label>
