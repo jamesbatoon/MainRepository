@@ -332,6 +332,64 @@
         <fullName>YearStarted</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
+    <fields>
+        <fullName>aaa__c</fullName>
+        <externalId>false</externalId>
+        <label>aaa</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>backprom__c</fullName>
+        <description>123</description>
+        <externalId>false</externalId>
+        <inlineHelpText>123</inlineHelpText>
+        <label>backprom</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>backtry__c</fullName>
+        <externalId>false</externalId>
+        <label>backtry</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>now__c</fullName>
+        <externalId>false</externalId>
+        <label>now</label>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>okaypicklist__c</fullName>
+        <externalId>false</externalId>
+        <label>okaypicklist</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>hey picklist</fullName>
+                    <default>true</default>
+                    <label>hey picklist</label>
+                </value>
+                <value>
+                    <fullName>yah picklist</fullName>
+                    <default>false</default>
+                    <label>yah picklist</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
     <listViews>
         <fullName>AllAccounts</fullName>
         <filterScope>Everything</filterScope>
